@@ -1,13 +1,17 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Root from './root';
+import Pricing from './components/pricing';
 import reportWebVitals from './reportWebVitals';
+import Footer from './components/footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Root></Root>
+    <Pricing> </Pricing> 
+    <Footer></Footer>
   </React.StrictMode>
 );
 
