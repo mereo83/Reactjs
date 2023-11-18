@@ -5,12 +5,16 @@ import Root from './root';
 import Pricing from './components/pricing';
 import reportWebVitals from './reportWebVitals';
 import Footer from './components/footer';
+import Navbar from './components/navbar';
+import Compareplans from './components/compareplan';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Navbar></Navbar>
     <Root></Root>
     <Pricing> </Pricing> 
+    <Compareplans></Compareplans>
     <Footer></Footer>
   </React.StrictMode>
 );
